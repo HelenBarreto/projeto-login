@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-queries">
+    <link rel="stylesheet" href="media-queries.css">
+    
 
     
     
@@ -25,11 +26,34 @@
 
 
             <div id="login">
-                
+
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) de volta. Faça seu login para acessar a sua conta e poder fazer as configurações no seu ambiente.  </p>
         
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post">
+
+                    <p><label for="inome">Nome:
+                        <input type="text" name="nome" id="inome" required minlength="10" maxlength="15" size="15"  autocomplete="name">
+                    </label></p>
+
+                    <p><label for="isenha">Senha:
+                       <input type="password" name="senha" id="isenha" required minlength="10" maxlength="15" size="15"  autocomplete="browse">
+                    </label></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
             </div>
                     
         </section>

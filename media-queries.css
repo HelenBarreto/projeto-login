@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    html,body{
+        background-image: linear-gradient(to bottom, #AA8FBF 50%,#716080 , #665673 );
+        background-attachment: fixed;
+    }
+
+    section{
+        width: 700px;
+        display: inline;
+        
+    }
+
+    section div#imagem{
+        float:left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section div#login{
+        float: right;
+        width: 66%;
+        
+        
+    }
+
+
+    
+}

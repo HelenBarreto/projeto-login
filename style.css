@@ -55,6 +55,20 @@ section div#login{
     padding: 10px;
 }
 
+div#login h1{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+div#login p{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
 
 
 
