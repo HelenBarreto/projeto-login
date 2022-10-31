@@ -1,0 +1,4 @@
+html,body{
+    background-image: linear-gradient(to bottom, #AA8FBF 50%,#716080 , #665673 );
+    background-attachment: fixed;
+}
