@@ -33,12 +33,17 @@
                 <form action="login.php" method="post">
 
                     <p><label for="inome">Nome:
-                        <input type="text" name="nome" id="inome" required minlength="10" maxlength="15" size="15"  autocomplete="name">
+                        <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="15"  autocomplete="name">
                     </label></p>
 
                     <p><label for="isenha">Senha:
-                       <input type="password" name="senha" id="isenha" required minlength="10" maxlength="15" size="15"  autocomplete="browse">
+                       <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" size="15"  autocomplete="browse">
                     </label></p>
+
+                    <p id="enviar"><label for="ienviar">
+                        <input type="submit" value="Enviar">
+                    </label></p>
+
 
 
 

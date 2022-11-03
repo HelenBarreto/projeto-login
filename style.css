@@ -36,6 +36,9 @@ section{
     box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.616);
     overflow: hidden;
 
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
 
 }
 
@@ -46,23 +49,38 @@ section div#imagem{
     height: 250px;
 
     display: block;
+
+    
      
 }
 
 section div#login{
 
     display: block;
-    padding: 10px;
+    padding: 7px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
+    
+
+    
 }
 
 div#login h1{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 div#login p{
     padding-bottom: 20px;
 }
+
+p#enviar{
+    text-align: center;
+}
+
+
 
 
 
