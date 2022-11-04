@@ -2,6 +2,8 @@
 
 
 
+
+
 @media screen and (min-width: 769px) and (max-width: 992px){
 
     html,body{
@@ -23,10 +25,15 @@
 
     section div#login{
         float: right;
-        width: 66%;
+        width: 68%;
         
         
     }
+    
+    section p#paragrafo{
+        font-size: 17px;
+        text-align: justify;
+    } 
 
 
     
@@ -44,18 +51,25 @@
     }
 
     section div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section div#login{
-        float: right;
-        width: 47%;
+        float: left;
+        width: 48%;
         height: 100%;
+
+        padding-left: 12px;
 
         
         
+    }
+
+    section p#paragrafo{
+        font-size: 18px;
+        text-align: justify;
     }
 
 
