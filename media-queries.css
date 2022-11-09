@@ -13,6 +13,7 @@
 
     section{
         width: 700px;
+        height: 290px;
         display: inline;
         
     }
@@ -29,11 +30,19 @@
         
         
     }
+
+    section div#login h1{
+        margin: 8px 0px;
+    }
     
     section p#paragrafo{
-        font-size: 17px;
+        font-size: 15.5px;
         text-align: justify;
     } 
+
+    form div#form2{
+        margin-bottom: 10px;
+    }
 
 
     
@@ -47,6 +56,7 @@
 
     section{
         width: 950px;
+        height: 307px;
         display: block;
     }
 
@@ -61,15 +71,23 @@
         width: 48%;
         height: 100%;
 
-        padding-left: 12px;
-
         
+
         
     }
 
+    section div#login h1{
+        margin: 8px 0px;
+    }
+
+
     section p#paragrafo{
-        font-size: 18px;
+        font-size: 16.5px;
         text-align: justify;
+    }
+
+    form div#form2{
+        margin-bottom: 10px;
     }
 
 
